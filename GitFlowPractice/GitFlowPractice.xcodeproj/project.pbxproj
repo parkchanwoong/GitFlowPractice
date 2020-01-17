@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F40A861F23D18DC20029780F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40A861E23D18DC20029780F /* SecondViewController.swift */; };
 		F4DCB92023D12E65002A9326 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DCB91F23D12E65002A9326 /* AppDelegate.swift */; };
 		F4DCB92223D12E65002A9326 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DCB92123D12E65002A9326 /* SceneDelegate.swift */; };
 		F4DCB92423D12E65002A9326 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DCB92323D12E65002A9326 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F40A861E23D18DC20029780F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		F4DCB91C23D12E65002A9326 /* GitFlowPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitFlowPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DCB91F23D12E65002A9326 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4DCB92123D12E65002A9326 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				F4DCB91F23D12E65002A9326 /* AppDelegate.swift */,
 				F4DCB92123D12E65002A9326 /* SceneDelegate.swift */,
 				F4DCB92323D12E65002A9326 /* ViewController.swift */,
+				F40A861E23D18DC20029780F /* SecondViewController.swift */,
 				F4DCB92523D12E65002A9326 /* Main.storyboard */,
 				F4DCB92823D12E66002A9326 /* Assets.xcassets */,
 				F4DCB92A23D12E66002A9326 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F40A861F23D18DC20029780F /* SecondViewController.swift in Sources */,
 				F4DCB92423D12E65002A9326 /* ViewController.swift in Sources */,
 				F4DCB92023D12E65002A9326 /* AppDelegate.swift in Sources */,
 				F4DCB92223D12E65002A9326 /* SceneDelegate.swift in Sources */,

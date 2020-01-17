@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         print("버그수정완료!")
+        print("은지도 버그수정완료!")
         // Do any additional setup after loading the view.
     }
 

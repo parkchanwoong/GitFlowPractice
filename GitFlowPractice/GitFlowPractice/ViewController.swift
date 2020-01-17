@@ -18,3 +18,8 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController {
+    func name() {
+        print("박찬웅")
+    }
+}

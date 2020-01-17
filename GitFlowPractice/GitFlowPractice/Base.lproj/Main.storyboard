@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kj5-Nu-OHj">
-                                <rect key="frame" x="130" y="425.5" width="154" height="45"/>
+                                <rect key="frame" x="130" y="817" width="154" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <state key="normal" title="PrinterButton">
                                     <color key="titleColor" red="0.1529411765" green="0.56078431370000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -28,7 +28,7 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="kj5-Nu-OHj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5xr-yn-Qrv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kj5-Nu-OHj" secondAttribute="bottom" id="2wL-LJ-KzO"/>
                             <constraint firstItem="kj5-Nu-OHj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ESG-kz-qq0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

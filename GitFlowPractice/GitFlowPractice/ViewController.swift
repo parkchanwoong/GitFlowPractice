@@ -25,7 +25,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func printerButtonAction(_ sender: Any) {
-        
+        print("버튼 꾸우우욱!!!")
     }
 }
 

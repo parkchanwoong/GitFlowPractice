@@ -25,11 +25,19 @@
                                     <action selector="printerButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qae-Zh-SW1"/>
                                 </connections>
                             </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rga-lv-Y8a">
+                                <rect key="frame" x="0.0" y="44" width="414" height="765"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="rga-lv-Y8a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="2XO-xA-lCc"/>
+                            <constraint firstItem="kj5-Nu-OHj" firstAttribute="top" secondItem="rga-lv-Y8a" secondAttribute="bottom" constant="8" symbolic="YES" id="2qd-dB-QNJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kj5-Nu-OHj" secondAttribute="bottom" id="2wL-LJ-KzO"/>
+                            <constraint firstItem="rga-lv-Y8a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="97Y-sc-dmf"/>
                             <constraint firstItem="kj5-Nu-OHj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ESG-kz-qq0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rga-lv-Y8a" secondAttribute="trailing" id="dQ3-ww-Nlq"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

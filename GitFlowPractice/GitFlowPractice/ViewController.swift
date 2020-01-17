@@ -8,6 +8,11 @@
 
 import UIKit
 
+enum MyError {
+    case normalError
+    case networkError
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {

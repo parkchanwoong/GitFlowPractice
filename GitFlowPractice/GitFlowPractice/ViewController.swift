@@ -28,3 +28,11 @@ extension ViewController {
         print("박찬웅")
     }
 }
+
+protocol ViewControllerUsable {
+    
+}
+
+extension ViewControllerUsable {
+    
+}

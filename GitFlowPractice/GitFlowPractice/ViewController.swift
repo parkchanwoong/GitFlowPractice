@@ -24,6 +24,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func printerButtonAction(_ sender: Any) {
+        
+    }
 }
 
 extension ViewController {

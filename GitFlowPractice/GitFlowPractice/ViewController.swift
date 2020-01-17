@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print("버그수정완료!")
         // Do any additional setup after loading the view.
     }
 

@@ -42,3 +42,21 @@ extension ViewControllerUsable {
     
 }
 
+extension ViewController: UITableViewDelegate, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 5
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "iCell")
+        if let c = cell {
+            c.textLabel?.text = "테\n스\n트\n셀\n\(indexPath.row)"
+            return c
+        }
+        return UITableViewCell.init()
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.cellForRow(at: indexPath)?.setSelected(false, animated: true)
+    }
+}

@@ -8,6 +8,11 @@
 
 import UIKit
 
+enum MyError {
+    case normalError
+    case networkError
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -18,3 +23,8 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController {
+    func name() {
+        print("박찬웅")
+    }
+}

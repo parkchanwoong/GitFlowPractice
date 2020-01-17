@@ -14,6 +14,7 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
         
         print("SecondViewController ::",#function)
+        print("릴리즈에서 추가한 단순 버그 수정)
 
     }
 

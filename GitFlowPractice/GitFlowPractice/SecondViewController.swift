@@ -16,6 +16,7 @@ class SecondViewController: UIViewController {
         print("SecondViewController ::",#function)
         print("릴리즈에서 추가한 단순 버그 수정")
         
+        showSimpleAlert(message: "0.4 버전 입니다.")
     }
 
 }

@@ -15,12 +15,12 @@ class SecondViewController: UIViewController {
         
         print("SecondViewController ::",#function)
         print("릴리즈에서 추가한 단순 버그 수정")
-
+        
     }
 
 }
 
-extension ViewController {
+extension UIViewController {
     func showSimpleAlert(message: String) {
         let alertController = UIAlertController(title: nil, message: message, preferredStyle: .alert)
         let okAction = UIAlertAction(title: "확인", style: .default, handler: nil)

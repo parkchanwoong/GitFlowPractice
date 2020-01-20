@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kj5-Nu-OHj">
-                                <rect key="frame" x="130" y="425.5" width="154" height="45"/>
+                                <rect key="frame" x="130" y="817" width="154" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <state key="normal" title="PrinterButton">
                                     <color key="titleColor" red="0.1529411765" green="0.56078431370000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -25,18 +25,50 @@
                                     <action selector="printerButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qae-Zh-SW1"/>
                                 </connections>
                             </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rga-lv-Y8a">
+                                <rect key="frame" x="0.0" y="44" width="414" height="765"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="iCell" textLabel="s8P-AN-E07" rowHeight="97" style="IBUITableViewCellStyleDefault" id="0SU-Ve-Zhp">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="97"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="tCell" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0SU-Ve-Zhp" id="NHP-jH-Lh7">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="97"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="s8P-AN-E07">
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="97"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.37254901959999998" green="0.81960784310000001" blue="0.7725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="g0z-6R-ViC"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="g39-K1-O3z"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="kj5-Nu-OHj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5xr-yn-Qrv"/>
+                            <constraint firstItem="rga-lv-Y8a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="2XO-xA-lCc"/>
+                            <constraint firstItem="kj5-Nu-OHj" firstAttribute="top" secondItem="rga-lv-Y8a" secondAttribute="bottom" constant="8" symbolic="YES" id="2qd-dB-QNJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kj5-Nu-OHj" secondAttribute="bottom" id="2wL-LJ-KzO"/>
+                            <constraint firstItem="rga-lv-Y8a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="97Y-sc-dmf"/>
                             <constraint firstItem="kj5-Nu-OHj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ESG-kz-qq0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rga-lv-Y8a" secondAttribute="trailing" id="dQ3-ww-Nlq"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="118"/>
+            <point key="canvasLocation" x="137.68115942028987" y="117.85714285714285"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tsS-hw-QFA">
